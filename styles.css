@@ -1,7 +1,7 @@
 *{
-   background-color: #1c305c;
+   background-color: #1c305c !important;
    color: white;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }
 
 @media screen and (max-width: 750px) {
@@ -21,7 +21,7 @@
         font-size: 18px;
     }
 
-    .image-container img {
+    .image-box img {
         max-width: 25%;
         height: auto;
         margin-right: 0;
@@ -39,7 +39,7 @@
         text-align: center;
     }
 
-    ul.list-container,
+    ul.list-box,
     ul {
         padding-left: 20px;
     }
@@ -57,27 +57,27 @@ a:hover {
     color: coral;
 }
 
-.education-container {
+.education-box {
     display: flex;
     align-items: center;
 }
 
-.education-container img {
+.education-box img {
     margin-right: 30px;
 }
 
-.image-container {
+.image-box {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.table-container {
+.table-box {
     text-align: center;
     border: solid white 4px;
 }
 
-.list-container {
+.list-box {
     display: flex;
     list-style: none;
     padding: 0;
@@ -86,10 +86,13 @@ a:hover {
 .horizontal-list {
     list-style: none;
     padding: 0;
+    text-decoration: none;
     text-align: center;
+    color: wheat;
 }
 
 .horizontal-list li {
     display: inline-block;
     margin-right: 10px;
+        text-decoration: none;
 }
